@@ -1,0 +1,33 @@
+{
+    "name": "lakalasdk/openapi",
+    "version": "3.0.1",
+    "description": "拉卡拉开放平台v3协议文档",
+    "keywords": [
+        "lakala",
+        "openapi",
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://o.lakala.com",
+    "license": "unlicense",
+    "authors": [
+        {
+            "name": "拉卡拉开放平台",
+            "homepage": "https://o.lakala.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0 || ^8.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.5",
+        "symfony/var-dumper": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lakala\\OpenAPISDK\\V3\\" : "src/"
+        }
+    }
+}
