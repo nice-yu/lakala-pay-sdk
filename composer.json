@@ -11,7 +11,9 @@
         "api"
     ],
     "homepage": "https://o.lakala.com",
-    "license": "unlicense",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "拉卡拉开放平台",
